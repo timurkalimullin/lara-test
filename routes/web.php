@@ -17,7 +17,7 @@ use App\Models\Listing;
 
 Route::get('/listings', function () {
     return view('listings', [
-        'heading' => 'Fresh version',
+        'heading' => 'v 0.1',
         'listings' => Listing::all()
     ]);
 });
