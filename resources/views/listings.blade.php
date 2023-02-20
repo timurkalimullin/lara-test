@@ -1,6 +1,9 @@
 @extends('layout')
 
 @section('content')
+@include('partials._hero')
+@include('partials._search')
+
 <p class="mb-6">{{ $heading }}</p>
 <div>
     @unless (count($listings) == 0)
